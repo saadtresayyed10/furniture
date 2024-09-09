@@ -29,7 +29,7 @@ const HomeImage = () => {
               width={1000}
               height={1000}
               src="/bed.jpg"
-              className="object-cover w-fit rounded-2xl"
+              className="object-cover w-fit rounded-2xl shadow-lg"
               alt="Bed"
             />
           </SwiperSlide>
@@ -38,7 +38,7 @@ const HomeImage = () => {
               width={1000}
               height={1000}
               src="/wardrobe.jpg"
-              className="object-cover w-fit rounded-2xl"
+              className="object-cover w-fit rounded-2xl shadow-lg"
               alt="Wardrobe"
             />
           </SwiperSlide>
@@ -47,7 +47,7 @@ const HomeImage = () => {
               width={1000}
               height={1000}
               src="/sofa.jpeg"
-              className="object-cover w-fit rounded-2xl"
+              className="object-cover w-fit rounded-2xl shadow-lg"
               alt="Sofa"
             />
           </SwiperSlide>

@@ -11,7 +11,7 @@ const AboutPage = () => {
         initial={{ opacity: 0, x: -40 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.4, ease: "backOut", delay: 0.4 }}
-        className="my-8 font-absans uppercase font-bold lg:text-6xl text-4xl text-center"
+        className="my-8 font-absans uppercase font-bold lg:text-6xl text-5xl text-center"
       >
         About Us
       </motion.h1>

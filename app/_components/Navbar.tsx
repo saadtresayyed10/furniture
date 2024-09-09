@@ -2,7 +2,7 @@
 
 import { motion, useScroll } from "framer-motion";
 import { useEffect, useState } from "react";
-import { Instagram, Facebook } from "lucide-react";
+import { Instagram, Facebook, Linkedin } from "lucide-react";
 import Link from "next/link";
 import Menubar from "./Menubar";
 
@@ -51,6 +51,14 @@ const Navbar = () => {
               <Instagram className="lg:w-4 w-3 lg:h-4 h-3 cursor-pointer" />
             </Link>
           </div>
+          <div className="lg:flex hidden p-2 hover:p-3 duration-500 border-neutral-400 border rounded-full">
+            <Link
+              href="https://www.linkedin.com/in/mohammed-barvatia-b73b32285/"
+              target="_blank"
+            >
+              <Linkedin className="lg:w-4 w-3 lg:h-4 h-3 cursor-pointer" />
+            </Link>
+          </div>
         </div>
       </motion.div>
       <Link href="/">
@@ -74,7 +82,7 @@ const Navbar = () => {
           transition={{ duration: 0.5, ease: "backOut", delay: 0.6 }}
           className="bg-black text-white lg:text-sm text-xs font-absans text-center lg:px-4 px-2.5 lg:py-2 py-1 rounded-full"
         >
-          Connect
+          Whatsapp
         </motion.button>
       </Link>
     </nav>

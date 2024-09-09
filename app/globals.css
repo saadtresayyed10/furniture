@@ -12,33 +12,30 @@
   src: url("/fonts/Absans.otf");
 }
 
-/* Custom Swiper Navigation Arrow Styles for the Swiper instance with class 'mySwiper' */
 .mySwiper .swiper-button-next,
 .mySwiper .swiper-button-prev {
-  color: #000; /* Change this to any color you want */
+  color: #000;
 }
 
 .mySwiper .swiper-button-next::after,
 .mySwiper .swiper-button-prev::after {
-  font-size: 25px;
-  font-weight: 700;
+  font-size: 26px;
+  font-weight: 800;
 }
 
-/* Custom Swiper Pagination Dots Styles for the Swiper instance with class 'mySwiper' */
 .mySwiper .swiper-pagination-bullet {
-  background-color: #000; /* Default color of the dots */
-  width: 10px; /* Width of the dots */
-  height: 10px; /* Height of the dots */
+  background-color: #000;
+  width: 10px;
+  height: 10px;
   padding: 2px;
-  opacity: 1; /* Full opacity for better visibility */
+  opacity: 1;
 }
 
 .mySwiper .swiper-pagination-bullet-active {
-  background-color: #aeaeae; /* Active dot color */
-  width: 12px; /* Increase the size of active dot */
-  height: 12px; /* Increase the size of active dot */
+  background-color: #aeaeae;
+  width: 12px;
+  height: 12px;
   transform: scale(1.2);
-  /* Optionally, scale the active dot for emphasis */
 }
 
 @layer base {

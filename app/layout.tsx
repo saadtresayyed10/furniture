@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "DerbyDecor Furniture",
   description: "Developer: Sayyed Saad",
   icons: {
-    icon: "logo.jpg",
+    icon: "/logo.png",
   },
 };
 

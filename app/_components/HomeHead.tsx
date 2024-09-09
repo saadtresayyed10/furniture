@@ -26,7 +26,7 @@ const HomeHead = () => {
             sleek modern furniture for your home, offices, dormitories, hotels,
             commercial outlets & more...
           </motion.p>
-          <Image src="/logo.jpg" alt="Logo" width={120} height={120} />
+          <Image src="/logo.png" alt="Logo" width={120} height={120} />
           <motion.p
             initial={{ opacity: 0, x: 100 }}
             animate={{ opacity: 1, x: 0 }}
@@ -50,7 +50,7 @@ const HomeHead = () => {
           commercial outlets & more...
         </motion.p>
         <div className="flex justify-center items-center w-full lg:hidden">
-          <Image src="/logo.jpg" alt="Logo" width={100} height={100} />
+          <Image src="/logo.png" alt="Logo" width={100} height={100} />
         </div>
         <motion.p
           initial={{ opacity: 0, x: 100 }}

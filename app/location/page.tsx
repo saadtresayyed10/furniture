@@ -12,7 +12,7 @@ const LocationPage = () => {
         initial={{ opacity: 0, y: -100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "backInOut", delay: 0.6 }}
-        className="lg:mt-10 font-absans uppercase font-bold lg:text-6xl text-4xl text-center"
+        className="lg:mt-10 font-absans uppercase font-bold lg:text-6xl text-5xl text-center"
       >
         Location
       </motion.h1>
