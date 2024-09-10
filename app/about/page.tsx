@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Facebook, Instagram, Mail, PhoneCall } from "lucide-react";
+import { Facebook, Instagram, Linkedin, PhoneCall } from "lucide-react";
 import Link from "next/link";
 
 const AboutPage = () => {
@@ -21,8 +21,11 @@ const AboutPage = () => {
         transition={{ duration: 0.4, ease: "backOut", delay: 0.4 }}
         className="flex justify-center items-center lg:gap-x-16 gap-x-10"
       >
-        <Link href="https://mail.google.com" target="_blank">
-          <Mail className="w-6 h-6" />
+        <Link
+          href="https://www.linkedin.com/in/mohammed-barvatia-b73b32285/"
+          target="_blank"
+        >
+          <Linkedin className="w-6 h-6" />
         </Link>
         <Link href={`tel:${+917808025050}`}>
           <PhoneCall className="w-6 h-6" />

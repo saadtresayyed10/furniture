@@ -28,7 +28,7 @@ const Footer = () => {
           </p>
         </Link>
       </div>
-      <p className="lg:text-[8px] text-[8px] text-center lg:mt-6 mt-4 text-neutral-600 flex justify-center items-center gap-x-1">
+      <p className="lg:text-[8px] cursor-none text-[8px] text-center lg:mt-6 mt-4 text-neutral-600 flex justify-center items-center gap-x-1">
         Developer: Sayyed Saad
       </p>
     </div>
